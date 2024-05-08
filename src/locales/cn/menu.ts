@@ -1,0 +1,46 @@
+import { SimpleTranslationEntries } from "#app/plugins/i18n";
+
+/**
+ * The menu namespace holds most miscellaneous text that isn't directly part of the game's
+ * contents or directly related to Pokemon data. This includes menu navigation, settings,
+ * account interactions, descriptive text, etc.
+ */
+export const menu: SimpleTranslationEntries = {
+    "cancel": "取消",
+    "continue": "继续",
+    "dailyRun": "日常运行(Beta)",
+    "loadGame": "加载游戏",
+    "newGame": "新游戏",
+    "selectGameMode": "选择游戏模式",
+    "logInOrCreateAccount": "登录或创建一个帐户开始。不需要电子邮件!",
+    "username": "用户名",
+    "password": "密码",
+    "login": "登录",
+    "register": "注册",
+    "emptyUsername": "用户名不能为空",
+    "invalidLoginUsername": "用户名错误",
+    "invalidRegisterUsername": "用户名必须包含字母、数字或下划线",
+    "invalidLoginPassword": "密码错误",
+    "invalidRegisterPassword": "密码必须超过6个字符",
+    "usernameAlreadyUsed": "此用户名已被使用",
+    "accountNonExistent": "次用户名不存在",
+    "unmatchingPassword": "密码不匹配",
+    "passwordNotMatchingConfirmPassword": "密码必须与确认密码匹配",
+    "confirmPassword": "确认密码",
+    "registrationAgeWarning": "想要通过注册，您必须超过13岁",
+    "backToLogin": "返回登录",
+    "failedToLoadSaveData": "加载保存数据失败。请重新加载页面。\n如果仍然如此，请联系管理员。",
+    "sessionSuccess": "会话加载成功",
+    "failedToLoadSession": "你的会话加载失败。\n它可能已经损坏",
+    "boyOrGirl": "你是男孩还是女孩",
+    "boy": "男孩",
+    "girl": "女孩",
+    "dailyRankings": "每日排名",
+    "weeklyRankings": "每周排名",
+    "noRankings": "没有排名",
+    "loading": "加载中...",
+    "playersOnline": "玩家在线",
+    "empty":"空",
+    "yes":"是",
+    "no":"否",
+} as const;

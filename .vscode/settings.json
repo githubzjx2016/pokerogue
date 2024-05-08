@@ -1,4 +1,7 @@
 {
   "javascript.preferences.importModuleSpecifierEnding": "minimal",
-  "typescript.preferences.importModuleSpecifierEnding": "minimal"
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "i18n-ally.localesPaths": [
+    "src/locales"
+  ]
 }
